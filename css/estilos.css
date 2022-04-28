@@ -12,7 +12,8 @@
 .capafondo{
     /*background: skyblue;*/
     background: url("botella.jpg") no-repeat;
-
+    top: 0;
+    left: 0;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -28,3 +29,20 @@
     width: 100%;
 
 }*/
+/*.navbar-dark, .bg-coral{
+    background: lightcoral;
+}*/
+.navbar-dark, .bg-dark{
+    background: rgb(179, 90, 152) !important;
+}
+
+.espacio{
+    height: 80px;
+    /*border: solid red;*/
+    margin-top: 80px;
+    
+}
+.row div[class^="col"]{
+    background: lightpink;
+    border: solid 0.1em black;
+}
